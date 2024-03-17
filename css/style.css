@@ -1,0 +1,20 @@
+
+
+/* basic startup css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.insidePage{
+    text-decoration: underline;
+}
+
+.insidePage:hover{
+    text-decoration-color: white;
+}
+
+.line{
+    margin-top: 5vh;
+    border: 1px black solid;
+}

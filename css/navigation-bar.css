@@ -1,0 +1,123 @@
+/* Css styles for the navigation bar */
+
+
+
+/* navigation bar */
+.navigation-bar {  
+    background-color: #a599ff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    top: 0;
+    /* right: 5vw;
+    left: 5vw; */
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+    z-index: 5;
+}
+
+/* making items center via left panel and right panel */
+.left-panel,
+.right-panel {
+    display: flex;
+    position: relative;
+}
+
+/* removing disc from the ul tag to none */
+.left-panel-items,
+.right-panel-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* for the spacing in navigation bar in both left and right. */
+.nav-left-margin {
+    margin-left: 5vw;
+}
+
+.nav-right-margin {
+    margin-right: 5vw;
+}
+
+/* Change the appearance of the links. */
+.modify-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* MODIFYING THE SEARCH BAR */
+#searchBar {
+    width: 20vw;
+    height: 4vh;
+    padding: 1vh 1vw;
+    border: none;
+    outline: none;
+    border-radius: 2vw;
+    margin-right: 2vw;
+    text-transform: capitalize;
+
+}
+
+/* Adjusting the search bar and the search button */
+
+#submitButton {
+    cursor: pointer;
+    /* margin-left: -1vw; */
+    border-width: 0.1vh;
+    height: 6.2vh;
+    width: 6vw;
+    outline: none;
+    border-radius: 3.1vh;
+
+}
+
+#submitButton img {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+
+/* MAKING FLEX BOX BOTH THE ITEMS SEARCH BAR AND BUTTON -> FOR BETTER VISUALS */
+.search-bar-button,
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Adding hovering effects to the search button */
+#searchBar:hover {
+    background-color: rgb(214, 210, 210) ;
+}
+
+
+#submitButton:hover {
+    background-color: rgb(214, 210, 210);
+}
+
+
+/* ADDING EFFECTS TO THE LEFT ITEMS */
+
+#logo:hover,
+#About:hover,
+#Contacts:hover{
+    /* background-color: red; */
+    color: white;
+}

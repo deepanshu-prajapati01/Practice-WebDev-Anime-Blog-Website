@@ -1,0 +1,63 @@
+/* FOOTER */
+
+
+#footer {
+    /* display: flex; */
+    list-style-type: none;
+    background-color: #e1c2f8;
+    width: 100%;
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.footer-section1,
+.footer-section2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.footer-help,
+.footer-community,
+.footer-contact,
+.footer-legal {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-heading {
+    margin-bottom: 2vh;
+}
+
+
+.footer-help,
+.footer-contact {
+    margin-bottom: 10vh;
+}
+
+
+/* Hovering effect */
+
+.footerHover:hover {
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,57 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Madimi+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* FONTS*/
+.logo-style-font {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-bar-content-font {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Page content font */
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/* New font for content; */
+.contentFont{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* will use the content font for more text in the page  */
+/* font will having text from same font - which used for heading. */

@@ -1,0 +1,89 @@
+
+/* CONTENT */
+.content {
+    width: 80vw;
+    margin:auto;
+    margin-top: 15vh;
+    height: auto;
+}
+
+.contentHolder-HOME{
+    background-image: url("../background_images/banner.jpg");
+}
+
+.contentHolder-aboutPage{
+    background-image: url("../aboutPageBackground/1.jpg");
+}
+
+.contentHolder-contactUsPage{
+    background-image: url("../aboutPageBackground/2.jpg");
+}
+
+
+
+
+
+
+
+.contentHolder-HOME,
+.contentHolder-aboutPage,
+.contentHolder-contactUsPage{
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
+
+
+
+
+.contentHolder-HOME,
+.contentHolder-aboutPage,
+.contentHolder-contactUsPage,
+.contentHolder{
+    /* background-color: antiquewhite; */
+    /* BACKGROUND IMAGE WILL BE SET VIA -> JAVA SCRIPT */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.contentHolder{
+    margin-top: 1.9vh;
+}
+
+.content-imagePart{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentHeading{
+    line-height: 5vh;
+}
+
+
+.content-textPart{
+    margin: 2vw;
+}
+
+.content-image,
+.about-content-image{
+    /* position: absolute; */
+    width: 20vw;
+    height: 20vw;
+    margin: auto;
+    border: 2px solid black;
+    /* border-radius: 10vw; */
+
+}
+
+.home-main-image{
+    width: 20vw;
+    height: 20vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10vw;
+}
