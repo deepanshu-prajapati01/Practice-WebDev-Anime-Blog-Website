@@ -1,7 +1,7 @@
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
 
     .about-content-image,
-    .content-image{
+    .content-image {
         width: 30vw;
         height: 30vw;
     }
@@ -10,14 +10,14 @@
 
 
 
-@media screen and (max-width: 850px){
-    .contentHolder{
+@media screen and (max-width: 850px) {
+    .contentHolder {
         flex-direction: column;
-        
+
     }
-    
+
     .about-content-image,
-    .content-image{
+    .content-image {
         width: 25vw;
         height: 25vw;
     }
@@ -33,7 +33,7 @@
 
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) {
 
     .home-main-image {
         width: 28vw;
@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
 
     .home-main-image {
         width: 29vw;
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
 
     .home-main-image {
         width: 30vw;
@@ -61,46 +61,88 @@
 }
 
 
-@media screen and (max-width: 600px){
-    #submitButton{
+@media screen and (max-width: 600px) {
+    #submitButton {
         width: 7vw;
     }
 
-    .home-main-image{
+    .home-main-image {
         display: none;
     }
-    
-    .contentHeading{
+
+    .contentHeading {
         line-height: 30px;
-        
+
     }
 
     .about-content-image,
-    .content-image{
+    .content-image {
         width: 30vw;
         height: 30vw;
     }
 
-    
+    #searchBar,
+    .left-panel-items li a {
+        font-size: 1.5vh;
+        font-size: 1.5vh;
+    }
+
+    #submitButton img {
+        padding-bottom: 1px;
+    }
+
+
+
+
 }
 
-@media screen and (max-width: 500px){
-    #submitButton{
+@media screen and (max-width: 500px) {
+    #submitButton {
         width: 8vw;
     }
-    
+
     .about-content-image,
-    .content-image{
+    .content-image {
         width: 40vw;
         height: 40vw;
     }
-    
+
     .nav-left-margin {
         margin-left: 3vw;
     }
 
-    .nav-right-margin{
-        margin-right: 3vw ;
+    .nav-right-margin {
+        margin-right: 3vw;
     }
 }
 
+
+
+
+
+/* Height */
+
+@media screen and (max-width: 1100px) {
+
+    .navigation-bar {
+        height: 3vh;
+    }
+
+    #searchBar {
+        height: 0.25vh;
+    }
+
+    #submitButton {
+        height: 2.2vh;
+
+    }
+
+    .content {
+        margin-top: 7vh;
+    }
+
+    .navigation-bar {
+        height: 5vh !important;
+    }
+
+}

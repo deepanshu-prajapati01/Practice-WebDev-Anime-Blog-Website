@@ -75,6 +75,7 @@
 
 #submitButton {
     cursor: pointer;
+    border: 0.1px black;
     /* margin-left: -1vw; */
     border-width: 0.1vh;
     height: 6.2vh;
